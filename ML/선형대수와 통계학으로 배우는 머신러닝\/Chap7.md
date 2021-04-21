@@ -14,13 +14,14 @@
 
 주어진 데이터 셋에 대해 오버피팅이나 언더피팅이 발생한다면 새로운 데이터에 적용할 수 있는 좋은 모형 X
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e336ba39-a7d4-489e-990e-bc7ebe1e64d1/_2021-04-13__4.42.17.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e336ba39-a7d4-489e-990e-bc7ebe1e64d1/_2021-04-13__4.42.17.png)
+![img](img/7-1-1.png)
 
 그림 7-1
 
 위 그림 왼쪽 데이터가 존재할 때, 오른쪽이 이상적인 머신러닝 모형
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad41cb0b-7710-43f8-b0b8-6a81d1ccbe37/_2021-04-13__4.44.48.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad41cb0b-7710-43f8-b0b8-6a81d1ccbe37/_2021-04-13__4.44.48.png)
+![img](img/7-1-2.png)
+
 
 왼쪽은 오버피팅, 오른쪽은 언더피팅
 
@@ -39,17 +40,20 @@ but 새로운 데이터 셋에 적용하면 학습 데이터 셋과는 달리 �
 - 추정한 모형이 n보다 큰 차원의 식으로 표현이 된다 ⇒ 오버피팅
 - n보다 작은 차원의 식으로 적합되었다 ⇒ 언더피팅
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df4c9f34-2de1-4998-a11c-e9f2ec370ccb/_2021-04-14__1.53.51.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df4c9f34-2de1-4998-a11c-e9f2ec370ccb/_2021-04-14__1.53.51.png)
+![img](img/7-1-3.png)
+
 
 위와 같이 실제 모형이 n차원식이라고 해보자
 
 if) 오버피팅
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65df2700-3b03-4fbd-8a13-d5c16db9281a/_2021-04-14__1.56.47.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65df2700-3b03-4fbd-8a13-d5c16db9281a/_2021-04-14__1.56.47.png)
+![img](img/7-1-4.png)
+
 
 if) 언더피팅
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fe31933-bcbe-48c3-8b5e-8db394b3e679/_2021-04-14__1.57.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fe31933-bcbe-48c3-8b5e-8db394b3e679/_2021-04-14__1.57.14.png)
+![img](img/7-1-5.png)
+
 
 관련된 개념 중 하나
 
@@ -73,7 +77,8 @@ if) 언더피팅
 
 오버피팅과 언더피팅을 방지하고 적합한 모형을 추정하기 위해서는 어떻게 해야 하나?
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc2ef6c2-d902-4856-bde1-78e5b35ef407/_2021-04-14__2.06.00.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc2ef6c2-d902-4856-bde1-78e5b35ef407/_2021-04-14__2.06.00.png)
+![img](img/7-2-1.png)
+
 
 그림 7-3 전체 데이터
 
@@ -87,7 +92,8 @@ why? 모형을 생성한 후 실제 데이터에 적용해 보고 성능을 평�
 
 이러한 문제를 해결하기 위해 전체 데이터를 트레이닝 데이터와 테스트 데이터로 분할해서 사용
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/911df3ee-6463-4bbb-9b07-ee96a3c52474/_2021-04-14__2.10.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/911df3ee-6463-4bbb-9b07-ee96a3c52474/_2021-04-14__2.10.03.png)
+![img](img/7-2-2.png)
+
 
 전체 데이터 셋을 트레이닝(Training)과 테스트(Test) 데이터로 나눈 것
 
@@ -107,7 +113,8 @@ k값을 직접 정하는데, 이때 k가 하이퍼파라미터 값
 
 즉, 모형의 하이퍼파라미터가 테스트 데이터에 의존
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f94b9171-177b-40ee-a853-3ade9341a501/_2021-04-14__2.20.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f94b9171-177b-40ee-a853-3ade9341a501/_2021-04-14__2.20.03.png)
+![img](img/7-2-3.png)
+
 
 이 문제를 해결하기 위해 위 그림처럼 트레이닝 데이터의 일부르 밸리데이션 데이터로 사용
 
@@ -115,7 +122,8 @@ k값을 직접 정하는데, 이때 k가 하이퍼파라미터 값
 
 즉, 트레이닝 데이터는 파라미터를 구하는 데 사용하고, 밸리데이션 데이터는 하이퍼파라미터를 정하는 데 사용
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75cea82c-a5a7-4c01-b67c-e36d60b11ade/_2021-04-14__2.24.37.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75cea82c-a5a7-4c01-b67c-e36d60b11ade/_2021-04-14__2.24.37.png)
+![img](img/7-2-4.png)
+
 
 위 그림과 같이 주어진 데이터 셋에 대해서 트레이닝 데이터, 밸리데이션 데이터, 테스트 데이터로 분할할 수 있는 다양한 조합 방법 존재
 
@@ -125,7 +133,8 @@ k값을 직접 정하는데, 이때 k가 하이퍼파라미터 값
 
 위 그림은 데이터 조합을 5개로 설정했으므로 5-fold cross-validation이라고 부름
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41f52806-a22e-4081-a943-823373a62abf/_2021-04-14__2.30.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41f52806-a22e-4081-a943-823373a62abf/_2021-04-14__2.30.07.png)
+![img](img/7-2-5.png)
+
 
 머신러닝 전체 과정을 요약하면 위 그림처럼 나타낼 수 있음
 
@@ -298,7 +307,7 @@ for k in [1,2,3,4,5,6,7,8,9,10]:                     # 2
 
 그리고 손실 함수와 비슷하게 비용 함수(cost function)라는 개념도 존재
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e947348-0ec1-409c-93f9-044ff2c2b74a/_2021-04-19__12.02.47.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e947348-0ec1-409c-93f9-044ff2c2b74a/_2021-04-19__12.02.47.png)
+![img](img/7-5-1.png)
 
 그림 7-8 손실 함수, 비용 함수 비교
 
@@ -336,15 +345,15 @@ L2 손실(L2 Loss)는 아래와 같음.
 
 L2 손실은 실젯값과 예측값의 차이에 제곱을 취함으로써 구할 수 있음
 
-$L2 \ Loss = \Sigma (y_{true} - y_{predict})^2$
+<!-- $L2 \ Loss = \Sigma (y_{true} - y_{predict})^2$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=L2%20%5C%20Loss%20%3D%20%5CSigma%20(y_%7Btrue%7D%20-%20y_%7Bpredict%7D)%5E2">
 
 L2 손실을 이용한 비용 함수에는 MSE(Mean Squared Error), RMSE(Root Mean Squared Error)가 존재
 
 MSE와 RMSE는 다음과 같이 표현
 
-$MAE = {1\over n}\sum_{i=1}^n(y_i-\hat y_i)^2$
+<!-- $MAE = {1\over n}\sum_{i=1}^n(y_i-\hat y_i)^2$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=MAE%20%3D%20%7B1%5Cover%20n%7D%5Csum_%7Bi%3D1%7D%5En(y_i-%5Chat%20y_i)%5E2">
 
-$RMSE = \sqrt{MSE}$
+<!-- $RMSE = \sqrt{MSE}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=RMSE%20%3D%20%5Csqrt%7BMSE%7D">
 
 MSE는 흔히 사용하는 비용 함수로 실젯값과 예측값의 차이의 제곱의 평균을 의미
 
@@ -364,7 +373,7 @@ MSE를 구하는 과정에서 실젯값과 예측값을 제곱하므로 MSE는 �
 
 ### 엔트로피
 
-$Entropy(P) = -\sum P(x)\log P(x) = - E (logP(x))$
+<!-- $Entropy(P) = -\sum P(x)\log P(x) = - E (logP(x))$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=Entropy(P)%20%3D%20-%5Csum%20P(x)%5Clog%20P(x)%20%3D%20-%20E%20(logP(x))">
 
 위 엔트로피 식은 Entropy(P)로 표기했지만 H(P) 혹은 H(X)라고 쓰기도 함
 
@@ -372,17 +381,18 @@ $Entropy(P) = -\sum P(x)\log P(x) = - E (logP(x))$
 
 ### 크로스 엔트로피
 
-$CrossEntropy(P,Q) = - \sum P(x)\log Q(X) = -E_p(\log Q(x))$
+<!-- $CrossEntropy(P,Q) = - \sum P(x)\log Q(X) = -E_p(\log Q(x))$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=CrossEntropy(P%2CQ)%20%3D%20-%20%5Csum%20P(x)%5Clog%20Q(X)%20%3D%20-E_p(%5Clog%20Q(x))">
 
 위 식은 크로스-엔트로피(cross-entropy)라고 하는데, 엔트로피는 하나의 분포를 대상으로 하는 반면, 크로스-엔트로피는 두 분포P(x), Q(x)를 대상으로 엔트로피를 측정해 두 분포 간의 차이를 계산
 
 머신러닝에서 크로스-엔트로피를 사용할 때는 P(x)를 실제 모형의 분포, Q(x)를 추정 모형의 분포라고 설정
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a494a3bd-e8fc-4e24-8b5c-adccd58506f0/_2021-04-20__3.15.33.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a494a3bd-e8fc-4e24-8b5c-adccd58506f0/_2021-04-20__3.15.33.png)
+![img](img/7-5-2.png)
+
 
 그림 7-9 크로스-엔트로피 예제
 
-$CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\ = -(1 \times \log 0.92 + 0 \times \log 0.05 + 0 \times \log 0.01 \\ = 0.08$
+<!-- $CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\ = -(1 \times \log 0.92 + 0 \times \log 0.05 + 0 \times \log 0.01 \\ = 0.08$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=CrossEntropy(P%2CQ)%20%3D%20-%20%5Csum%20P(x)%5Clog%20Q(X)%20%20%5C%5C%20%3D%20-(1%20%5Ctimes%20%5Clog%200.92%20%2B%200%20%5Ctimes%20%5Clog%200.05%20%2B%200%20%5Ctimes%20%5Clog%200.01%20%5C%5C%20%3D%200.08">
 
 이번에는 간단한 예를 들어 크로스-엔트로피를 구해봄
 
@@ -406,7 +416,8 @@ $CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\ = -(1 \times \log 0.92 + 0 \times 
 
 이 절에서는 머신러닝 모형 평가에 쓰이는 여러 가지 개념을 알아보자
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f287cbf9-5a4f-4393-a297-2051bb68fcdb/_2021-04-20__3.23.56.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f287cbf9-5a4f-4393-a297-2051bb68fcdb/_2021-04-20__3.23.56.png)
+![img](img/7-6-1.png)
+
 
 표 7-1 이진 분류표
 
@@ -414,7 +425,8 @@ $CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\ = -(1 \times \log 0.92 + 0 \times 
 
 [표 7-1]에서 예측과 실제 결과가 모두 양성이거나 모두 음성이면 올바르게 예측했으므로 정답으로 분류할 수 있고, 예측값과 실제 결과가 일치하지 않은 경우는 오답으로 분류할 수 있음
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84624278-c678-46f5-bc4d-6e88de334852/_2021-04-20__3.24.16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84624278-c678-46f5-bc4d-6e88de334852/_2021-04-20__3.24.16.png)
+![img](img/7-6-2.png)
+
 
 표 7-2 이진 분류 케이스
 
