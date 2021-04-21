@@ -1,3 +1,27 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$'] ],
+    processEscapes: true,
+  }
+});
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # 7.1 오버피팅과 언더피팅
 
 머신러닝 모형을 만들었을 때 모형의 성능은 어떻게 평가?
@@ -382,7 +406,7 @@ $CrossEntropy(P,Q) = - \sum P(x)\log Q(X) = -E_p(\log Q(x))$
 
 그림 7-9 크로스-엔트로피 예제
 
-$CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\= -(1 \times \log 0.92 + 0 \times \log 0.05 + 0 \times \log 0.01 \\= 0.08$
+$CrossEntropy(P,Q) = - \sum P(x)\log Q(X)  \\ = -(1 \times \log 0.92 + 0 \times \log 0.05 + 0 \times \log 0.01 \\ = 0.08$
 
 이번에는 간단한 예를 들어 크로스-엔트로피를 구해봄
 
