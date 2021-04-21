@@ -1,27 +1,3 @@
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$'] ],
-    processEscapes: true,
-  }
-});
-MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
-	});
-MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
-	});
-</script>
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # 7.1 오버피팅과 언더피팅
 
 머신러닝 모형을 만들었을 때 모형의 성능은 어떻게 평가?
@@ -338,9 +314,9 @@ for k in [1,2,3,4,5,6,7,8,9,10]:                     # 2
 
 L1 손실 = L1 비용(L1 cost)
 
-$L1 \ Loss = \Sigma |y_{true} - y_{predict}|$
+<!-- $L1 \ Loss = \Sigma |y_{true} - y_{predict}|$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=L1%20%5C%20Loss%20%3D%20%5CSigma%20%7Cy_%7Btrue%7D%20-%20y_%7Bpredict%7D%7C">
 
-위 수식에서 $y_{true}$는 실젯값을 의미하고, $y_{predict}$는 학습 모형을 이용해 예측한 값을 의미
+위 수식에서 <!-- $y_{true}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=y_%7Btrue%7D">는 실젯값을 의미하고, <!-- $y_{predict}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=y_%7Bpredict%7D">는 학습 모형을 이용해 예측한 값을 의미
 
 즉 L1 손실은 실젯값과 예측값의 차이에 기댓값을 취한 것
 
@@ -348,11 +324,11 @@ $L1 \ Loss = \Sigma |y_{true} - y_{predict}|$
 
 L1 손실과 관련된 비용 함수로 MAE(Mean Absolute Error)가 있음
 
-$MAE = {1\over n}\sum_{i=1}^n|y_i-\hat y_i|$
+<!-- $MAE = {1\over n}\sum_{i=1}^n|y_i-\hat y_i|$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=MAE%20%3D%20%7B1%5Cover%20n%7D%5Csum_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%20y_i%7C">
 
 MAE는 데이터셋의 L1 Loss 평균을 나타내는 비용 함수
 
-위 수식에서 $y_i$는 i번째 실젯값을 의미하고 $\hat y_i$는 i번째 예측값을 의미
+위 수식에서 <!-- $y_i$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=y_i">는 i번째 실젯값을 의미하고 <!-- $\hat y_i$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Chat%20y_i">는 i번째 예측값을 의미
 
 ## 7.5.3 L2 손실함수
 
