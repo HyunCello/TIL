@@ -37,20 +37,29 @@ Chap 8
 확률 변수 Y가 주어졌을 때, 확률 변수 <!-- $X_1$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=X_1">과 <!-- $X_2$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=X_2">가 조건부 독립이면 아래 식을 만족함
 
 <!-- ![img](img/8-6-1.png){: width="60%" } -->
-<img src="./img/8-6-1.png", width="60%">
+
+<p align="center">
+	<img src="img/8-6-1.png" alt="kingdom" width="50%"/>
+</p>
 
 관련 내용은 4.10 단원을 참고
 
 나이브 베이즈 개념 설명을 위해 먼저 [표 8-1]과 같은 데이터 가정
 
-![img](img/8-6-2.png)
+<p align="center">
+	<img src="img/8-6-2.png" alt="kingdom" width="70%"/>
+</p>
+
+
 [표 8-1]의 데이터는 날씨, 바람, 온도, 습도라는 4가지 피처를 이용해 타깃 변수인 배드민턴 플레이 여부 예측
 
 나이브 베이즈 개념을 좀 더 쉽게 배우려면 우선 날씨 피처 하나만 고려
 
 날씨에 따른 배드민턴 플레이 확률은 [표 8-2]와 같이 나타낼 수 있음
 
-![표 8-2](img/8-6-3.png)
+<p align="center">
+	<img src="img/8-6-3.png" alt="kingdom" width="70%"/>
+</p>
 
 [표 8-2]는 날씨에 따른 배드민턴 플레이 확률 나타냄
 
@@ -60,7 +69,9 @@ Chap 8
 
 이는 배드민턴을 플레이할 확률을 생각할 때, 날씨의 상태에 따라 확률이 바뀔 수 있다는 것을 의미
 
-![img](img/8-6-4.png)
+<p align="center">
+	<img src="img/8-6-4.png" alt="kingdom" width="50%"/>
+</p>
 
 만약 날씨 조건에 상관없이 배드민턴을 플레이하는 '배드민턴=네'일 확률을 구하고 싶다면 위 식과 같이 모든 날씨 상태에 따른 조건부 확률을 모두 더하면 됨
 
