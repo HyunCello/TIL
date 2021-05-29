@@ -47,3 +47,54 @@ On top of that, starting immediately gives extra time to deal with unexpected pr
 맺음말 - 6. 이러한 점에서, 나는 발표를 준비할 때 완벽한 아이디어를 위해 기다리기보다는 즉시 시작하는 것을 선호한다.
 
 -> 6. In this regard, I prefer starting right away when preparing a presentation rather than waiting for the perfect idea.
+
+# 6
+Do you agree or disagree with the following statement?
+
+It is acceptable for the government to neglect environmental concerns to promote economic growth.
+
+Use specific reasons and examples to support your opinion.
+
+나의 의견 - disagree
+
+도입 - 1. 일부 사람들은 정부가 환경 문제를 무시하면서 경제적 성장을 촉긴하는 데 문제가 없다고 생각한다.
+
+-> 1. Some people think that there is no problem with the government promoting economic growth while ignoring environmental issues.
+
+내 주장 - 2. 하지만, 내 생각에는 ,정부는 환경을 방치하지 말아야 하는데, 그것이 대중의 건강을 위협하고 장기적으로는 더 큰 경제적 손실로 이어질 수 있기 때문이다.
+
+-> 2. However, in my opinion, the government shouldn't neglect the environment because it can threaten public health and lead to greater economic loss in the long run.
+
+이유 1 - 3. 우선, 정부가 환경을 방치하면, 대중의 건강이 위협받는다.
+
+-> 3. To begin with, when the government neglects the environment, public health is endangered.
+
+일반적 진술 - 
+
+4.산업폐기물이 공기와 물을 오염시킨다는 것은 잘 알려져 있다. 사람들이 지속적으로 유독성 폐기물에 노출되면, 그들은 알레르기나 천식과 같은 심각한 건강 문제를 겪을 수 있다.
+
+-> 4. It is well known that industrial waste pollutes the air and water. When people are continually exposed to toxic waste, they may suffer serious health problem such as allergies or asthma.
+
+예시 - 예를 들어, 인도는 최근 수십 년간 급속한 산업 성장을 경험했으며, 이 성장은 많은 오염을 발생시켰다. 불행히도, 인도 정보는 환경을 보호하기 위한 노력을 하지 않았다. 한 환경 단체에 따르면, 이러한 방치는 그 나라에서 매년 2천만 명이나 되는 새로운 천식 환자가 생기게 한다
+
+For example, India has experienced rapid industrial growth in recent de cades, and this growth has generated a lot of pollution. Unfortunately, the Indian government has not mad an effort to protect the environment. According to one environmental group, this neglect causes as many as 20 million new cases of asthma in that country every year.
+
+이유 2 - 5. 게다가, 정부가 환경 문제를 무시하면, 그들은 장기적으로는 결국 상당한 경제적 손실을 겪을 것이다.
+
+-> 5. On top of that, when governments ignore environmental concerns, they will end up suffering substantial economic losses in the long term.
+
+일반적 진술 - 6. 일부 정부는 환경적 위험 요인을 무시하는데, 경제적 이득이 그 손실보다 더 크다고 믿기 때문이다. 하지만, 실상은 이 정부들이 훼손된 환경을 정화하는 데 나중에 훨씬 더 많은 돈을 내야 한다는 것이다.
+
+-> 6. Some governments ignore environmental risks because they believe the economic benefits ate greater than the costs. However, the truth is that these governments have to pay a lot more money to clean up the damaged environment later.
+
+예시 - 7. 예를 들어, 오염은 미국에서 대부분의 역사를 통틀어 중대한 문제였지만, 정부는 그 문제를 무시했고 대신 경제적 성장에 주력했다. 하지만 1980년대에 미국 정부는 마침내 이 문제의 심각성을 깨달아서, 전국의 가장 유해한 지역들을 정화하기 시작했다.
+
+-> 7. For example, pollution was a big problem in the US throughout much of its history, but the government ignored the problem and focused on economic growth instead. However, in the 1980s, the US government finally realized the seriousenss of the issue, so it started to clean up the most hazardous sites across the country.
+
+7.오염을 정화하는 것은 정부에 수백만 달러의 비용이 들게 했으며, 정부가 그 문제를 더 일찍 처리했더라면 그 비용은 훨씬 더 낮았을 것이다.
+
+-> 7. Cleaning up the pollution cost the government millions of dollars, and the cost would have been much lower if the government had dealt with the problem earlier.
+
+요약 / 맺음말 - 요약하자면, 정부가 환경을 방치하면, 대중의 건강이 위기에 처하고 장기적으로 상당한 경제 손실이 발생한다. 이러한 점에서, 나는 정부가 오로지 경제적 성장에 주력하기보다는 항상 환경을 보호하기 위한 강력한 시도를 해야 한다고 믿는다.
+
+To sum up, when the government neglects the environment, public health is put in danger and significant economic losses occur in the long term. In this regard, I believe the government should always make a strong attempt to protect the environment rather than focus solely on economic growth.
