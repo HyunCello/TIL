@@ -77,6 +77,30 @@ A solution came in the form of privately built roadways called turnpikes, which 
 ## Hackers Test 1
 
 ### Passage
+1단락 -> 철새 비행 : 매번 비슷한 경로
 
 1.Some birds are permanent residents and either have adapted to survival in winter habitats or inhabit areas where temperatures are relatively stable, such as near the equator. Nonetheless, many bird species living in seasonally inhospitable environments are seasonal residents. As winter is often the most challenging time for birds to access indispensable needs like food, shelter, and water, many escape the conditions by migrating more suitable habitats as the days become shorther and temperatures drop in autumn.
 
+2단락 -> 철새 비행 가설 (1) Star Compass
+
+2.Scientists have proposed two interrelated hypotheses for how this navigation may be achieved. The first(가설1) is the theory that birds have internal star compasses. According to the theory, birds use the locations and spacing of stars, as well as their regular movements, to determine direction. Experimenting with indigo buntings in the 1970s, American ornithologist Stephen Emlen used a planetarium to simulate the night sky. Emlen put the birds in funnel-shaped cages so that the only visible direction was up. At the bottom of the cages he placed a wet ink pad and covered the walls with paper, Emlen was able to trace the movements of the birds within the enclosures and confirm that the buntings altered their courses consistently in relation to the movement of stars.
+
+3단락 -> 철새 비행 가설 (2) Magnetic Field
+
+Complicating this theory, however, is the fact that birds continue to navigate effectively at night under cloud cover, when no stars are clearly visible.(가설 1 적용 X). Magnetic-compass theory(가설 2) which asserts birds use magnetic fields to determine their location, is an attempt to explain how birds can continue to navigate without visual clues. Recent research indicates that birds have minute quantities of iron oxides in their heads and beaks. These magnetic crystals align north likr needles of a compass regardless of changes in a bird's orientation, giving birds a constant flow of directional information to the brain
+
+4단락 -> 철새 이동 자극 = zugunruhe (선천적 충동)
+
+In studying how birds navigate, scientists also unwittingly received cues about the inclination of birds to migrate. When nocturnal migrants were kept in cages at night, they demonstrated restless behavior, as if they were involuntarily being pulled in their normal migratory direction. zungunruhe, a term derived from the German roots meaning migeration and anxiety. It is believed that birds have an innate impulse to migrate, which is universal among bird species, though much subdued in non-migratory populations.
+
+# 11강 마무리 Tips
+
+1. 지시어 유형 전략 4가지 숙지
+    1. 가까운 앞, 즉 앞 절/ 앞 문장
+    2. 같은 문장 역할
+    3. 수식어/ 서술부 내용 통일
+    4. 빈출 대명사
+
+2. Fact 문제 풀이시 전 단락 내용 조심하기
+
+    가설 2 질문에 가설 1 내용은 NOT RELEVANT!
