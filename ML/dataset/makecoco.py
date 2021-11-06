@@ -4,7 +4,6 @@ from PIL import Image
 
 path = "./annos"
 file_list = os.listdir(path)
-# print(len(file_list))
 file_name = 1
 # print("{0:06d}".format(file_name))
 
