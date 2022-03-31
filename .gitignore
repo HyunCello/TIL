@@ -1,2 +1,7 @@
 .DS_Store
 .vscode
+
+Programming/Image Processing Masterclass/images
+Programming/Image Processing Masterclass/Code Bundle/**/*.png
+Programming/Image Processing Masterclass/Code Bundle/**/*.jpg
+Programming/Image Processing Masterclass/Code Bundle/**/Icon_
